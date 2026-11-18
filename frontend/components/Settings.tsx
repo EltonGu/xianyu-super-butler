@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {
   Database,
-  ExternalLink,
   Eye,
   EyeOff,
   KeyRound,
@@ -647,18 +646,6 @@ const Settings: React.FC = () => {
               />
               <span className="mt-1 block text-xs text-gray-500">
                 填写兼容 OpenAI 协议的服务根地址，无需补全 `/chat/completions`。
-              </span>
-              <span className="mt-1 flex items-center gap-1 text-xs text-gray-500">
-                AI 不够用？
-                <a
-                  href="https://corleom.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="inline-flex items-center gap-1 font-semibold text-[var(--brand-text)] hover:underline"
-                >
-                  跳转到我的中转站
-                  <ExternalLink className="h-3 w-3" />
-                </a>
               </span>
             </label>
 
